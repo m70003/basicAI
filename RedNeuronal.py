@@ -43,8 +43,6 @@ class RedNeuronal():
 				print("Error en la ronda de prueba: "+str(self.contar))
 				print((self.y - self.salida)**2)
 
-
-	
     #El método backprop utiliza la regla de la cadena para encontrar la derivada de la función de pérdida con respecto a
 	#pesos2 y pesos1, por lo que puede actualizar todos los pesos de los nn
 	def backprop(self):
